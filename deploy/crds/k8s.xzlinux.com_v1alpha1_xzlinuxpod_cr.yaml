@@ -1,0 +1,7 @@
+apiVersion: k8s.xzlinux.com/v1alpha1
+kind: XzlinuxPod
+metadata:
+  name: example-xzlinuxpod
+spec:
+  # Add fields here
+  replicas: 1

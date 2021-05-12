@@ -1,0 +1,1 @@
+etcdctl --cacert=/run/config/pki/etcd/ca.crt --cert=/run/config/pki/etcd/healthcheck-client.crt --key=/run/config/pki/etcd/healthcheck-client.key get /registry/k8s.xzlinux.com/xzlinuxpods/default/example-xzlinuxpod --prefix=true 
